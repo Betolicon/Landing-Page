@@ -40,7 +40,7 @@ a{
 
 .sub-text{
     color: #E5E7EB;
-    font-size: 18px; 
+    font-size: 18px;
     width: 450px;
 }
 
@@ -73,13 +73,14 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 6rem 0;
-    gap: 22px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 38px;
 }
 
 .second{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 img{
@@ -113,4 +114,17 @@ h3{
     color: white;
     font-size: 12px;
     padding: 18px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+}
+
+.container{
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 10px;
 }
