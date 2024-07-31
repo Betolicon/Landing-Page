@@ -8,8 +8,11 @@ body{
     justify-content: space-between;
 }
 
+.header, .footer{
+    background-color: #1F2937; 
+}
+
 .header{
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,7 +53,6 @@ a{
 .first{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 300px;
 }
 
@@ -58,12 +60,6 @@ a{
     display: flex;
 }
 
-.second{
-    display: flex;
-    flex-direction: column;
-    align-items: normal;
-    gap: 10px;
-}
 
 button{
     background-color: #3882f6;
@@ -79,11 +75,33 @@ button{
 
 .content{
     display: flex;
-    justify-content: space-between;
-    gap: 400px
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 100px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
 }
 
 img{
     height: 250px;
-    width: 450px;
+}
+
+.quote{
+    background-color: #E5E7Eb;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px;
 }
